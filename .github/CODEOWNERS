@@ -1,0 +1,15 @@
+# Default owners
+*       @DamienDemontis
+
+# Critical areas (require review by maintainers listed below)
+apps/api/                 @DamienDemontis @core-maintainer
+apps/web/                 @DamienDemontis @ux-maintainer
+packages/schemas/         @DamienDemontis @core-maintainer
+packages/plugin-sdk-js/   @DamienDemontis @plugins-maintainer
+packages/plugin-sdk-py/   @DamienDemontis @plugins-maintainer
+plugins/                  @DamienDemontis @plugins-maintainer
+docs/                     @DamienDemontis @docs-maintainer
+
+# Security-sensitive paths
+**/env.*                  @DamienDemontis @core-maintainer
+**/secrets*               @DamienDemontis @core-maintainer
